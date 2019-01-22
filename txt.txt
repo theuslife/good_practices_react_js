@@ -1,0 +1,19 @@
+
+
+============  Clonando um array removendo um elemento X (Bons para casos de exclusão de dados imutáveis ) ============  
+Splice() = Função nátiva do javascript na qual adiciona ou remove elementos
+do array de acordo com seu index
+
+
+============  Dados imútaveis ============  
+Utilize do Spead operator para datos imutáveis no Ecmascript
+
+============ Melhor forma de usar a Key prop na percorreção de elementos ============ 
+
+Não é uma boa utilizar Index para key props no React JS, pois o mesmo em uma lista
+grande irá renderizar todo o componente quando uma interação ocorrer, o que resulta
+em uma prática não eficaz. Por isto busque utilizar de IDs
+
+============ findIndex ============
+
+É um map que percorre os elementos até achar um index que bata com a condicão fornecida, logo após retorna o index deste elemento. (Ótimo para casos onde necessita de uma atualização ou deletar arquivos em uma multidão de dados)
